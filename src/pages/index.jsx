@@ -17,7 +17,19 @@ export default function Home() {
         <meta
           name="description"
           content="Ushbu-du Outdoor Festival vám přináší zajímavé příběhy od ne vždy uplně známých cestovatelů a sportovců. Snažíme se vás inspirovat k výkonům, o kterých jste ani nevěděli, že na ně máte."
+          key="desc"
         />
+      <meta
+          property="og:title"
+          content="Ushbu-du Outdoor Fest - Přijďte naplánovat své výlety" />
+      <meta
+          property="og:description"
+          content="Ushbu-du Outdoor Festival vám přináší zajímavé příběhy od ne vždy uplně známých cestovatelů a sportovců. Snažíme se vás inspirovat k výkonům, o kterých jste ani nevěděli, že na ně máte."
+      />
+      <meta
+          property="og:image"
+          content="https://fest.ushbudu.team/ushbudu-outdoor-fest-website-image.jpg"
+      />
       </Head>
       <Header />
       <main>
