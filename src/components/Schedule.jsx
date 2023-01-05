@@ -71,8 +71,8 @@ const schedule = [
         end: '22:30',
       },
       {
-        name: 'FreerideGurus',
-        description: 'Kyrgyzstán',
+        name: 'Ondra Pekárek',
+        description: 'Kyrgyzstán s Freerideguides',
         start: '22:30',
         end: '23:00',
       },

@@ -2,6 +2,8 @@
 
 Ushbudu outdoor festival website is based on Keynote, which is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/61facf06-5a82-4c65-ab79-f49bce5c9629/deploy-status)](https://app.netlify.com/sites/ushbudu-outdoor-fest/deploys)
+
 ## Getting started
 
 To get started with development of this website, first install the npm dependencies:
