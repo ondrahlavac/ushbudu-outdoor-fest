@@ -44,8 +44,8 @@ const days = [
         image: ondrejVoseckyImage,
       },
       {
-        name: 'Linda Maršíková',
-        role: 'Ushbu-du team v Iráku',
+        name: 'Ondřej Pekárek',
+        role: 'Kyrgyzstan - Back in Time',
         image: lindaMarsikovaImage,
       },
     ],

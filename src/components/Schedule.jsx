@@ -72,7 +72,7 @@ const schedule = [
       },
       {
         name: 'Ondra Pekárek',
-        description: 'Kyrgyzstán s Freerideguides',
+        description: 'Kyrgyzstan - Back in Time',
         start: '22:30',
         end: '23:00',
       },
