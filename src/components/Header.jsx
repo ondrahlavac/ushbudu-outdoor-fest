@@ -20,8 +20,7 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href="#tickets">Rezervujte si lístky</Button>
-          {/*<Button href="https://hlav.ac/3UiyMo9">Rezervujte si lístky</Button>*/}
+          <Button href="https://hlav.ac/3UiyMo9">Rezervujte si lístky</Button>
         </div>
       </Container>
     </header>

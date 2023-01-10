@@ -1,5 +1,6 @@
 import { Container } from '@/components/Container'
 import Link from "next/link";
+import {Button} from "@/components/Button";
 
 export function Tickets() {
   return (
@@ -15,17 +16,21 @@ export function Tickets() {
             Pojistěte si lístky ještě teď
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-              Lístky si můžete koupit přímo zde,
-              přes <Link href="https://www.kinoaero.cz/?projection=13681" className="text-blue-600 hover:text-blue-500">web kina Aero</Link>,
-              nebo <Link href="https://hlav.ac/3UiyMo9" className="text-blue-600 hover:text-blue-500">v síti Colosseum</Link>.
+              Lístky si můžete koupit přes <Link href="https://www.kinoaero.cz/?projection=13681" className="text-blue-600 hover:text-blue-500">web kina Aero</Link>,
+              nebo přímo <Link href="https://hlav.ac/3UiyMo9" className="text-blue-600 hover:text-blue-500">v síti Colosseum</Link>.
           </p>
         </div>
         <div className="mx-auto mt-20">
-          <iframe src={"https://kinoaero.colosseum.eu/incoming.aspx?mrsid=6&eventid=123488"}
-                  style={{"border":"none"}}
-                  className={'shadow-xl shadow-blue-900/5'}
-                  width={"100%"}
-                  height={"500px"}></iframe>
+            <div className="mt-5 flex rounded-3xl py-2.5 pr-2.5 ">
+                <Button href="https://hlav.ac/3UiyMo9" className={"mx-auto"}>
+                    <span>Lístky na webu Colosseum</span>
+                </Button>
+            </div>
+            {/*  <iframe src={"https://kinoaero.colosseum.eu/incoming.aspx?mrsid=6&eventid=123488"}*/}
+        {/*          style={{"border":"none"}}*/}
+        {/*          className={'shadow-xl shadow-blue-900/5'}*/}
+        {/*          width={"100%"}*/}
+        {/*          height={"500px"}></iframe>*/}
         </div>
 
       </Container>

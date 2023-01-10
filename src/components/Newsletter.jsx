@@ -31,11 +31,6 @@ export function Newsletter() {
                 Kup si lístky ještě dnes <span aria-hidden="true">&darr;</span>
               </h3>
               <div className="mt-5 flex rounded-3xl py-2.5 pr-2.5 ">
-                <Button href="#tickets" className={"mx-auto"}>
-                  <span>Nákup lístku výše</span>
-                </Button>
-              </div>
-              <div className="mt-5 flex rounded-3xl py-2.5 pr-2.5 ">
                 <Button href="https://hlav.ac/3UiyMo9" className={"mx-auto"}>
                   <span>Lístky na webu Colosseum</span>
                 </Button>
