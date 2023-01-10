@@ -9,7 +9,7 @@ import ondrejVoseckyImage from '@/images/avatars/ondrej-vosecky.jpg'
 import josefLittleImage from '@/images/avatars/josef-little.jpg'
 import petrDocekalImage from '@/images/avatars/petr-docis.jpg'
 import tomBaudImage from '@/images/avatars/tom-baud.jpg'
-import lindaMarsikovaImage from '@/images/avatars/linda-marsikova.jpg'
+import ondrejPekarekImage from '@/images/avatars/ondrej-pekarek.jpg'
 import yannickBesanconImage from '@/images/avatars/yannick-besancon.jpg'
 
 const days = [
@@ -46,7 +46,7 @@ const days = [
       {
         name: 'Ondřej Pekárek',
         role: 'Kyrgyzstan - Back in Time',
-        image: lindaMarsikovaImage,
+        image: ondrejPekarekImage,
       },
     ],
   }
